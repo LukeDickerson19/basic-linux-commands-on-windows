@@ -19,6 +19,7 @@ in the popup, go to path: HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processo
 right click "Command Processor" > New > String Value
 set the name to "AutoRun"
 right click the string value > Modify ...
-set the "Value data" to the path the bashrc.cmd file (placed where ever you want)
+set the "Value data" to the path of the bashrc.cmd file
+	aka this repos path, placed where ever you want, plus "\bashrc.cmd"
 ```
 [source: Ctrl + F for "Humdinger", this is his answer](https://superuser.com/questions/144347/is-there-windows-equivalent-to-the-bashrc-file-in-linux)
