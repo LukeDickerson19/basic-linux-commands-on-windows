@@ -28,4 +28,6 @@ set the "Value data" to the path of the bashrc.cmd file
 ```
 Windows OS
 python 3.6+
+python libraries:
+	shutil
 ```
