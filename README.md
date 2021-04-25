@@ -23,3 +23,9 @@ set the "Value data" to the path of the bashrc.cmd file
 	aka this repos path, placed where ever you want, plus "\bashrc.cmd"
 ```
 [source: Ctrl + F for "Humdinger", this is his answer](https://superuser.com/questions/144347/is-there-windows-equivalent-to-the-bashrc-file-in-linux)
+
+### REQUIREMENTS:
+```
+Windows OS
+python 3.6+
+```
