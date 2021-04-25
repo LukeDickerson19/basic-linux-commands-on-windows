@@ -83,14 +83,6 @@ if __name__ == '__main__':
 				else:
 					print('%s is a directory' % filepath)
 
-	elif args[0] == 'touch':
-		# create empty files if they don't exist
-		# TODO handle filepath being given instead of using cwd
-		filepaths = get_full_paths(args[1:])
-		for filepath in filepaths:
-			if not os.path.exists(filepath):
-				open(filepath, 'w').close()
-
 	elif args[0] == 'mv':
 		if len(args) == 3:
 			filepath1 = get_full_path(args[1])
@@ -100,6 +92,14 @@ if __name__ == '__main__':
 			shutil.move(filepath1, filepath2)
 		else:
 			print('invalid syntax. syntax must be: mv <src_dir> <dst_dir>')
+
+	elif args[0] == 'touch':
+		# create empty files if they don't exist
+		# TODO handle filepath being given instead of using cwd
+		filepaths = get_full_paths(args[1:])
+		for filepath in filepaths:
+			if not os.path.exists(filepath):
+				open(filepath, 'w').close()
 
 	elif args[0] == '_tree':
 
