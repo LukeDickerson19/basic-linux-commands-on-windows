@@ -6,7 +6,7 @@ Windows command prompt aliases of basic linux terminal commands
 ### DESCRIPTION:
 
 Windows command prompt aliases (aka doskeys in Windows) of basic linux terminal commands:
-... ls, mv, cp, cat, pwd, touch, rm
+⋅⋅⋅ ls, mv, cp, cat, pwd, touch, rm
 
 If you can, another option is the Windows Subsystem for Linux
 https://www.laptopmag.com/articles/use-bash-shell-windows-10
